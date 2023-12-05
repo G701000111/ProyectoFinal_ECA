@@ -97,6 +97,12 @@
     <Compile Include="Ventana7.Designer.cs">
       <DependentUpon>Ventana7.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ventana8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventana8.Designer.cs">
+      <DependentUpon>Ventana8.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ventana7.resx">
       <DependentUpon>Ventana7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventana8.resx">
+      <DependentUpon>Ventana8.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
