@@ -46,6 +46,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.Opc.SuspendLayout();
             this.SuspendLayout();
@@ -82,6 +84,8 @@
             // Opc
             // 
             this.Opc.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Opc.Controls.Add(this.button8);
+            this.Opc.Controls.Add(this.button7);
             this.Opc.Controls.Add(this.button1);
             this.Opc.Controls.Add(this.button6);
             this.Opc.Controls.Add(this.button4);
@@ -288,6 +292,44 @@
             this.label1.Text = "Algoritmos de Grafos";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button7
+            // 
+            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.button7.BackColor = System.Drawing.SystemColors.Control;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button7.Location = new System.Drawing.Point(262, 148);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(184, 30);
+            this.button7.TabIndex = 14;
+            this.button7.Text = "Pareo de Grafo Normal";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button7.MouseLeave += new System.EventHandler(this.BtnLeave);
+            this.button7.MouseHover += new System.EventHandler(this.BtnHover);
+            // 
+            // button8
+            // 
+            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.button8.BackColor = System.Drawing.SystemColors.Control;
+            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button8.Location = new System.Drawing.Point(262, 184);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(184, 30);
+            this.button8.TabIndex = 15;
+            this.button8.Text = "Pareo de Grafo Bipartido";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button8.MouseLeave += new System.EventHandler(this.BtnLeave);
+            this.button8.MouseHover += new System.EventHandler(this.BtnHover);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -326,6 +368,8 @@
         private System.Windows.Forms.GroupBox Opc;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
     }
 }
 
